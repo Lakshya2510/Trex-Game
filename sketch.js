@@ -75,7 +75,8 @@ function setup(){
 }
 
 function draw(){
-  background("grey")
+  background("White")
+  
   text("score="+score,500,50);
   text("Best="+highScore,500,65);
   text("Lakshya's Game",200,200);
