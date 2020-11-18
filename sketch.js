@@ -78,6 +78,7 @@ function draw(){
   background("grey")
   text("score="+score,500,50);
   text("Best="+highScore,500,65);
+  text("Lakshya's Game",200,200);
   drawSprites();
   console.log(frameCount);
   if(gameState == PLAY){
