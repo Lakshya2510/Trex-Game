@@ -75,7 +75,7 @@ function setup(){
 }
 
 function draw(){
-  background("White")
+  background("grey")
   
   text("score="+score,500,50);
   text("Best="+highScore,500,65);
